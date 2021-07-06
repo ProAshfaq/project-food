@@ -141,6 +141,56 @@ text-align: center;
 }
 /* countdown part end */
 
+/* subscription part start */
+.subscribe{
+    background-image: url(images/frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 5% 0 5% 0;
+}
+.sub-text{
+
+width: 80%;
+
+margin: auto;
+}
+.sub-text h2{
+
+margin: 0;
+}
+.sub-text p{
+
+font-size: 1.2em;
+
+line-height: 1.7;
+
+margin: 2% 0;
+}
+input{
+
+padding: 20px;
+
+border: none;
+
+border-radius: 30px;
+
+font-size: 1.2em;
+
+width: 20%;
+}
+.sub-text form a{
+
+margin: 0;
+
+padding: 15px 30px;
+}
+small{
+    display: block;
+    padding-top: 2%;
+}
+/* subscription part end */
+
 /* footer part stat */
 footer{
     background-color: #151521;
