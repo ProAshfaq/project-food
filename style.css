@@ -4,9 +4,9 @@ body{
 }
 
 /* hero part start */
-.banner{
+.banner {
     display: flex;
-    margin-top: 3%;
+    padding: 3% 0 3%;
 }
 .half-width{
     width: 50%;
@@ -103,7 +103,7 @@ text-align: center;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
-    box-shadow: rgb(0 0 0 / 9%) 0px 0px 25px 0px;
+    box-shadow: rgb(0 0 0 / 18%) 0px 0px 25px 0px;
     padding-top: 1.2%;
 }
 .item img {
@@ -131,8 +131,8 @@ text-align: center;
     display: flex;
     width: 80%;
     justify-content: space-around;
-    box-shadow: rgb(0 0 0 / 9%) 0px 0px 25px 0px;
     border-radius: 30px;
+    box-shadow: rgb(0 0 0 / 18%) 0px 0px 25px 0px;
     margin: 5% auto;
     padding: 1% 0 2% 0;
 }
@@ -143,8 +143,9 @@ text-align: center;
 
 /* footer part stat */
 footer{
-    background-color: black;
+    background-color: #151521;
     text-align: center;
+    padding: 1% 0 3%;
 }
 footer h3{
     font-size: 2em;
@@ -156,3 +157,4 @@ footer p{
 footer span{
     color: #fb984c;
 }
+/* footer part end */
